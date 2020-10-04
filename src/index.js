@@ -1,3 +1,7 @@
-import start from './modules/start';
+'use strict';
 
-start();
+import toggglePopupCall from './modules/toggglePopupCall';
+import sendForm from './modules/sendForm';
+
+toggglePopupCall();
+sendForm();
